@@ -1,0 +1,49 @@
+/* Variable Declare section Start */
+:root{
+    --primary-color:#4caf50;
+    --secondery-color:#fff;
+    --background-color:#f4f4f4;
+}
+/* Variable Declare section End */
+
+body{
+    background-color:var(--background-color);
+    color:#333;
+}
+
+h1,h2{
+    color: var(--primary-color);
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--secondery-color);
+}
+
+button:hover{
+background-color: #45a049;
+}
+
+header{
+    background-color: var(--primary-color);
+    color: var(--secondery-color);
+}
+
+nav ul li a {
+    color: var(--secondery-color);
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--secondery-color);
+}
+
+h1{
+    background-color: gray;
+}
+
+.title{
+    background-color: red;
+}
+
+
